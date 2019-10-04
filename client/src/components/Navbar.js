@@ -19,8 +19,8 @@ const Navbar = () => {
     const [dark, setDark] = useDarkMode(false);
     return (
     <nav className="navbar">
-      <h1>Womens Football</h1>
-      <button onClick={() => setDark()}>Toggle Dark Mode</button>
+      <h1 data-testid='header'>Womens Football</h1>
+      <button onClick={() => setDark()} data-testid='darkBtn'>Toggle Dark Mode</button>
     </nav>
   );
 };

@@ -14,6 +14,7 @@ export default class PlayerList extends React.Component {
         {
             playerData.map(player => {
                 console.log(player)
+                return <Player key={player.name} playerDetails={player} /> 
             })
         }
         {/* <Player /> */}

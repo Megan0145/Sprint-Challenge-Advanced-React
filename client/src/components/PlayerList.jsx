@@ -7,10 +7,16 @@ export default class PlayerList extends React.Component {
   }
 
   render() {
+      const { playerData } = this.props;
     return (
       <div>
         <h1>PlayerList</h1>
-        <Player />
+        {
+            playerData.map(player => {
+                console.log(player)
+            })
+        }
+        {/* <Player /> */}
       </div>
     );
   }

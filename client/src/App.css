@@ -31,3 +31,20 @@
     transform: rotate(360deg);
   }
 }
+.dark-mode {
+  background-color: #113c78;
+
+}
+.dark-mode .navbar {
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar button {
+  height: 1.3rem;
+  margin-left: 20px;
+}
